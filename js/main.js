@@ -56,7 +56,7 @@ const worldInfo = (data) => {
   const worldStats = document.createElement("section");
   worldStats.classList.add("worldStats");
   worldStats.innerHTML = `
-            <p>The <span>${data[0]["Country_text"]}</span> has <span>${data[0]["Total Cases_text"]}</span> total cases,  <span>${data[0]["Active Cases_text"]}</span> active cases, <span>${data[0]["New Cases_text"]}</span> new cases, <span class="heroDeaths">${data[0]["Total Deaths_text"]}</span> total deaths and, <span>${data[0]["New Deaths_text"]}</span> new deaths</p>
+            <p>The <span>${data[0]["Country_text"]}</span> has <span>${data[0]["Total Cases_text"]}</span> total cases,  <span>${data[0]["Active Cases_text"]}</span> active cases, <span>${data[0]["New Cases_text"]}</span> new cases, <span class="heroDeaths">${data[0]["Total Deaths_text"]}</span> total deaths, and <span>${data[0]["New Deaths_text"]}</span> new deaths</p>
             <p>Check out your country's Covid stats below!</p>
             `;
   document.querySelector(".worldInfo").appendChild(worldStats);
