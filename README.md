@@ -1,7 +1,7 @@
 # COVID-19 Stats
 To further my familiarity with API's I created an app that tracks every countries COVID-19 statistics. I believe it is important to have some kind of raw number information to try to understand the severity of this pandemic. All information is from the https://covid-19.dataflowkit.com/ API.
 
-[Click here](https://covidnineteenstats.netlify.app/) to test your Pokemon knowledge.
+[Click here](https://covidnineteenstats.netlify.app/) to see your country's COVID-19 stats.
 
 <img src="assets/covidstats.gif" alt="app demo gif" width="100%"/>
 
